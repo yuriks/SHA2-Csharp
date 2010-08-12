@@ -42,17 +42,13 @@ namespace Sha2
 
         private static UInt32 ROTL(UInt32 x, byte n)
         {
-#if DEBUG
             Debug.Assert(n < 32);
-#endif
             return (x << n) | (x >> (32 - n));
         }
 
         private static UInt32 ROTR(UInt32 x, byte n)
         {
-#if DEBUG
             Debug.Assert(n < 32);
-#endif
             return (x >> n) | (x << (32 - n));
         }
 
