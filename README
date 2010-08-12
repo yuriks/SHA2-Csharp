@@ -1,0 +1,1 @@
+A straightforward implementation of the SHA-2 secure hashing functions (SHA-256 only for now, other variants, as well as optimizations, may come later.) in pure C#. It is MIT licensed, but if you improve it, I kindly ask you to consider sending me your changes to help everyone!
