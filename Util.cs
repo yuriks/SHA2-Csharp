@@ -32,7 +32,7 @@ namespace Sha2
             StringBuilder s = new StringBuilder(arr.Count * 2);
             for (int i = 0; i < arr.Count; ++i)
             {
-                s.AppendFormat("{0:x}", arr[i]);
+                s.AppendFormat("{0:x2}", arr[i]);
             }
 
             return s.ToString();
